@@ -5,3 +5,27 @@
   margin: 0;
   padding: 0;
 }
+
+:root {
+  /* colors */
+  --blue-header: #2e323f;
+  --blue-body: #3b4050;
+  --grey-blue-text: #6f737f;
+  --white: #fff;
+  --gold-highlight: #a59678;
+
+  /* fonts */
+  /* headlines, titles, etc. */
+  --oswald-bold-18: bold 1.125rem "Oswald", sans-serif;
+  --oswald-bold-21: bold 1.3125rem "Oswald", sans-serif;
+  --oswald-bold-24: bold 1.5rem "Oswald", sans-serif;
+  --oswald-bold-30: bold 1.875rem "Oswald", sans-serif;
+  --oswald-bold-36: bold 2.25rem "Oswald", sans-serif;
+  --oswald-bold-90: bold 5.625rem "Oswald", sans-serif;
+
+  /* body text */
+  --montserrat-reg-16: 1rem "Montserrat", sans-serif;
+  --montserrat-reg-18: 1.125rem "Montserrat", sans-serif;
+  --montserrat-reg-21: 1.3125rem "Montserrat", sans-serif;
+  --montserrat-reg-24: 1.5rem "Montserrat", sans-serif;
+}
