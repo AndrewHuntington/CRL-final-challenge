@@ -8,7 +8,7 @@
 
 :root {
   /* colors */
-  --blue-header: #2e323f;
+  --blue-nav: #2e323f;
   --blue-body: #3b4050;
   --grey-blue-text: #6f737f;
   --white: #fff;
@@ -28,4 +28,40 @@
   --montserrat-reg-18: 1.125rem "Montserrat", sans-serif;
   --montserrat-reg-21: 1.3125rem "Montserrat", sans-serif;
   --montserrat-reg-24: 1.5rem "Montserrat", sans-serif;
+}
+
+.hero {
+  background-color: var(--blue-body);
+  padding: 5em 0;
+}
+
+.hero__title {
+  color: #fff;
+  font: var(--oswald-bold-90);
+  line-height: 1;
+  margin-bottom: 0.5em;
+}
+
+.hero__title span {
+  color: var(--gold-highlight);
+}
+
+.hero__text {
+  color: #fff;
+  font: var(--montserrat-reg-24);
+  margin-bottom: 1.5em;
+}
+
+.hero__button {
+  background-color: var(--gold-highlight);
+  color: #fff;
+  font: var(--oswald-bold-24);
+  padding: 0.5em 1em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.container {
+  width: min(1200px, 80%);
+  margin: 0 auto;
 }
