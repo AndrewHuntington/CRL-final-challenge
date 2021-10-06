@@ -153,6 +153,25 @@ body {
   font: var(--montserrat-reg-18);
 }
 
+.section-two {
+  padding: 2em 0;
+}
+
+.section-two__title {
+  color: var(--gold-highlight);
+  font: var(--oswald-bold-36);
+  margin-bottom: 0.3em;
+}
+
+.section-two__text {
+  font: var(--montserrat-reg-21);
+}
+
+.section-two__text:last-child {
+  margin-bottom: 2em;
+}
+
 .section-two__img {
+  margin: 1em 0;
   width: 100%;
 }
