@@ -71,6 +71,11 @@ body {
   margin-left: 1em;
 }
 
+.nav__item:hover,
+.nav__item:focus {
+  opacity: 0.65;
+}
+
 .nav__link {
   color: #fff;
   font: var(--oswald-bold-18);
@@ -121,6 +126,31 @@ body {
 .container {
   width: min(1200px, 80%);
   margin: 0 auto;
+}
+
+.section-one {
+  /* No color was provided in the design doc, 
+  so this is my best guess. */
+  background-color: #ececec;
+  padding: 4em 0;
+}
+
+.section-one .col {
+  text-align: center;
+}
+
+.section-one .col:not(:last-child) {
+  margin-bottom: 1em;
+}
+
+.section-one__title {
+  color: var(--gold-highlight);
+  font: var(--oswald-bold-30);
+  margin-bottom: 0.5em;
+}
+
+.section-one__text {
+  font: var(--montserrat-reg-18);
 }
 
 .section-two__img {
