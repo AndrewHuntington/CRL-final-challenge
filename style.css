@@ -195,3 +195,47 @@ body {
 .box__text {
   font: var(--montserrat-reg-18);
 }
+
+.section-three {
+  background-color: var(--blue-body);
+  padding-bottom: 2.5em;
+}
+
+.section-three__main-title {
+  color: var(--white);
+  font: var(--oswald-bold-24);
+  text-align: center;
+  padding: 2em 0;
+}
+
+.section-three__col-title {
+  color: var(--gold-highlight);
+  font: var(--oswald-bold-21);
+  padding-bottom: 0.765em;
+}
+
+.section-three__col-text {
+  font: var(--montserrat-reg-16);
+  padding-bottom: 1em;
+}
+
+.section-three li {
+  list-style: none;
+}
+
+.section-three a {
+  text-decoration: none;
+}
+
+.section-three a:visited {
+  color: var(--grey-blue-text);
+}
+
+.section-three a:hover,
+.section-three a:focus {
+  opacity: 0.65;
+}
+
+.section-three__col-text {
+  color: var(--grey-blue-text);
+}
