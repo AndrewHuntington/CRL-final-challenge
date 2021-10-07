@@ -77,7 +77,7 @@ body {
 }
 
 .nav__link {
-  color: #fff;
+  color: var(--white);
   font: var(--oswald-bold-18);
   text-decoration: none;
   text-transform: uppercase;
@@ -86,7 +86,7 @@ body {
 .button {
   background-color: var(--gold-highlight);
   border-radius: 100px;
-  color: #fff;
+  color: var(--white);
   padding: 0.3em 1.5em;
   text-decoration: none;
 }
@@ -102,7 +102,7 @@ body {
 }
 
 .hero__title {
-  color: #fff;
+  color: var(--white);
   font: var(--oswald-bold-90);
   line-height: 1;
   margin-bottom: 0.5em;
@@ -113,7 +113,7 @@ body {
 }
 
 .hero__text {
-  color: #fff;
+  color: var(--white);
   font: var(--montserrat-reg-24);
   margin-bottom: 1.5em;
 }
@@ -174,4 +174,24 @@ body {
 .section-two__img {
   margin: 1em 0;
   width: 100%;
+}
+
+.box {
+  background-color: var(--blue-body);
+  color: var(--white);
+  padding: 2em 3em;
+  text-align: center;
+}
+
+.box:not(:last-child) {
+  margin-bottom: 2em;
+}
+
+.box__title {
+  font: var(--oswald-bold-30);
+  padding-bottom: 0.7em;
+}
+
+.box__text {
+  font: var(--montserrat-reg-18);
 }
