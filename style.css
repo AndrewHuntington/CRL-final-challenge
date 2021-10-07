@@ -232,6 +232,7 @@ span.nav-toggle {
 }
 
 .section-three a {
+  color: var(--grey-blue-text);
   text-decoration: none;
 }
 
