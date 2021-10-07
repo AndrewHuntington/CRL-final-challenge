@@ -284,4 +284,13 @@ body {
   .section-two .col-right {
     flex: 0 3 350px;
   }
+
+  .section-three .row {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .section-three .col-one {
+    width: min(500px, 40%);
+  }
 }
