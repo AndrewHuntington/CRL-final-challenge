@@ -288,6 +288,10 @@ span.nav-toggle {
   }
   /* Navbar styles end */
 
+  .hero__title {
+    line-height: 1.1;
+  }
+
   .section-one .row {
     display: flex;
     gap: 1.2em;
@@ -309,6 +313,27 @@ span.nav-toggle {
 }
 
 @media (min-width: 1000px) {
+  .hero .row {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .hero__title {
+    margin-bottom: 0;
+  }
+
+  .hero .col-left {
+    width: min(45%, 600px);
+  }
+
+  .hero .col-right {
+    width: min(40%, 400px);
+  }
+
+  .hero .col-right {
+    align-self: end;
+  }
+
   .section-two aside .row {
     display: block;
     gap: 0;
